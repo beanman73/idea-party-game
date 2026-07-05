@@ -1,0 +1,7 @@
+.DS_Store
+Invention Party/.git-nested-backup/
+.env
+.env.local
+.vercel/
+*.xcuserstate
+**/xcuserdata/
