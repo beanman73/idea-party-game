@@ -81,7 +81,7 @@ struct RoundView: View {
             }
 
             FilledButton(title: "Continue to Idea Pad", background: Palette.mustard,
-                         foreground: Palette.ink, fontSize: 20, verticalPadding: 18, seed: 4) {
+                         foreground: Palette.buttonInk, fontSize: 20, verticalPadding: 18, seed: 4) {
                 router.push(.ideaPad)
             }
         }

@@ -324,7 +324,7 @@ struct IdeaPadView: View {
     @ViewBuilder private func primaryButton(player: Player) -> some View {
         if bothInputs && !onWriteStep {
             FilledButton(title: "Continue to Description →", background: Palette.mustard,
-                         foreground: Palette.ink, fontSize: 18, verticalPadding: 17, seed: 5) {
+                         foreground: Palette.buttonInk, fontSize: 18, verticalPadding: 17, seed: 5) {
                 continueToDescription()
             }
         } else {

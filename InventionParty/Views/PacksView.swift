@@ -147,7 +147,7 @@ struct PacksView: View {
             if isMixingDecks {
                 FilledButton(title: mixStartTitle,
                              background: selectedMixedDeckIds.count >= 2 ? Palette.mustard : Palette.card,
-                             foreground: selectedMixedDeckIds.count >= 2 ? Palette.ink : Palette.inkFaint,
+                             foreground: selectedMixedDeckIds.count >= 2 ? Palette.buttonInk : Palette.inkFaint,
                              fontSize: 18,
                              verticalPadding: 14,
                              seed: 83,
@@ -659,7 +659,7 @@ struct PacksView: View {
 
                 FilledButton(title: deckDetailActionTitle(for: detail),
                              background: locked ? detail.marketing.coverAccent : Palette.mustard,
-                             foreground: locked ? Palette.cream : Palette.ink,
+                             foreground: locked ? Palette.cream : Palette.buttonInk,
                              fontSize: 18,
                              verticalPadding: 14,
                              seed: detail.seed &+ 90,

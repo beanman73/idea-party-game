@@ -102,7 +102,7 @@ struct RulesView: View {
                     }
                 } else {
                     FilledButton(title: "Next →", background: Palette.mustard,
-                                 foreground: Palette.ink, fontSize: 17, seed: 53) {
+                                 foreground: Palette.buttonInk, fontSize: 17, seed: 53) {
                         withAnimation { currentSlide += 1 }
                     }
                 }

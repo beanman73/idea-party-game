@@ -132,7 +132,7 @@ struct SketchButtonStyle: ButtonStyle {
 struct FilledButton: View {
     let title: String
     var background: Color = Palette.mustard
-    var foreground: Color = Palette.ink
+    var foreground: Color = Palette.buttonInk
     var fontSize: CGFloat = 21
     var verticalPadding: CGFloat = 16
     var seed: UInt64 = 11

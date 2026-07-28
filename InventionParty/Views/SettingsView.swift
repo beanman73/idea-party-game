@@ -85,10 +85,10 @@ struct SettingsView: View {
             VStack(spacing: 6) {
                 Image(systemName: icon)
                     .font(.system(size: 20, weight: .bold))
-                    .foregroundColor(active ? Palette.ink : Palette.inkSoft)
+                    .foregroundColor(active ? Palette.buttonInk : Palette.inkSoft)
                 Text(title)
                     .font(.marker(15, bold: true))
-                    .foregroundColor(active ? Palette.ink : Palette.inkSoft)
+                    .foregroundColor(active ? Palette.buttonInk : Palette.inkSoft)
             }
             .frame(maxWidth: .infinity)
             .padding(.vertical, 16)

@@ -46,7 +46,7 @@ struct SetupView: View {
                 if selectedMode != .crowd && !isSolo && !players.isEmpty { judgeSection }
 
                 FilledButton(title: "Continue", background: Palette.mustard,
-                             foreground: Palette.ink, fontSize: 22, seed: 3) { startGame() }
+                             foreground: Palette.buttonInk, fontSize: 22, seed: 3) { startGame() }
                 FilledButton(title: "Reset to Default", background: Palette.card,
                              foreground: Palette.danger, fontSize: 18, verticalPadding: 14, seed: 81) {
                     resetSetupDefaults()
@@ -184,10 +184,10 @@ struct SetupView: View {
                 }
                 Text(title)
                     .font(.marker(17, bold: true))
-                    .foregroundColor(active ? Palette.ink : Palette.inkSoft)
+                    .foregroundColor(active ? Palette.buttonInk : Palette.inkSoft)
                 Text(desc)
                     .font(.marker(12))
-                    .foregroundColor(active ? Palette.ink.opacity(0.7) : Palette.inkFaint)
+                    .foregroundColor(active ? Palette.buttonInk.opacity(0.7) : Palette.inkFaint)
                     .multilineTextAlignment(.center)
             }
             .frame(maxWidth: .infinity)

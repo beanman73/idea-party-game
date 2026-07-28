@@ -54,10 +54,10 @@ struct HowToPlayView: View {
                 }
 
                 HStack(spacing: 12) {
-                    Doodle(kind: .trophy, size: 34, color: Palette.ink)
+                    Doodle(kind: .trophy, size: 34, color: Palette.buttonInk)
                     Text("Most points wins!")
                         .font(.marker(20, bold: true))
-                        .foregroundColor(Palette.ink)
+                        .foregroundColor(Palette.buttonInk)
                 }
                 .frame(maxWidth: .infinity)
                 .padding(18)

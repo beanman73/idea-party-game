@@ -76,7 +76,7 @@ struct SplashView: View {
 
                 // The single call to action. Pops in last, then breathes gently.
                 FilledButton(title: "Play!", background: Palette.mustard,
-                             foreground: Palette.ink, fontSize: 30, verticalPadding: 22,
+                             foreground: Palette.buttonInk, fontSize: 30, verticalPadding: 22,
                              seed: 3, icon: .controller) {
                     router.push(.setup)
                 }

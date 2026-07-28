@@ -39,7 +39,7 @@ struct CustomCardsView: View {
                 cardGrid
 
                 FilledButton(title: "Use This Deck", background: Palette.mustard,
-                             foreground: Palette.ink, seed: 4) { saveCards() }
+                             foreground: Palette.buttonInk, seed: 4) { saveCards() }
                     .padding(.top, 20)
                 FilledButton(title: "← Back", background: Palette.card,
                              foreground: Palette.ink, fontSize: 18, verticalPadding: 14, seed: 80) { router.pop() }

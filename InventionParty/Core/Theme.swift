@@ -67,6 +67,7 @@ enum Palette {
     static let inkSoft  = Color(light: "#6B6453", dark: "#C7BCA4") // secondary
     static let inkFaint = Color(light: "#A89E88", dark: "#8B8067") // tertiary / placeholder
     static let cream    = Color(hex: "#FFF8EC")                     // text/lines on dark accents
+    static let buttonInk = Color(hex: "#2B2B28")                     // text/icons on bright buttons
 
     // Accent crayons
     static let tomato  = Color(light: "#E5533C", dark: "#F26B54")

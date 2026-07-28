@@ -49,7 +49,7 @@ struct AIDeckView: View {
                 cardGrid
 
                 FilledButton(title: "Use This Deck", background: Palette.mustard,
-                             foreground: Palette.ink, seed: 4) { useDeck() }
+                             foreground: Palette.buttonInk, seed: 4) { useDeck() }
                     .padding(.top, 20)
                 FilledButton(title: "← Back", background: Palette.card,
                              foreground: Palette.ink, fontSize: 18, verticalPadding: 14, seed: 80) { router.pop() }
@@ -202,7 +202,7 @@ struct AIDeckView: View {
             VStack(alignment: .leading, spacing: 7) {
                 HStack {
                     if let badge = offering.badge {
-                        miniBadge(text: badge, fill: Palette.mustard, foreground: Palette.ink, seed: UInt64(offering.title.count + 80))
+                        miniBadge(text: badge, fill: Palette.mustard, foreground: Palette.buttonInk, seed: UInt64(offering.title.count + 80))
                     }
                     Spacer(minLength: 0)
                 }

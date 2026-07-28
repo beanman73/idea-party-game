@@ -133,8 +133,8 @@ struct VoteView: View {
                             .overlay(SketchyRoundedRectangle(cornerRadius: 9, seed: 71).stroke(Palette.inkFaint, lineWidth: 1.8))
                     } else if isSelected {
                         HStack(spacing: 6) {
-                            Doodle(kind: .sparkle, size: 18, color: Palette.ink)
-                            Text("Your vote").font(.marker(14, bold: true)).foregroundColor(Palette.ink)
+                            Doodle(kind: .sparkle, size: 18, color: Palette.buttonInk)
+                            Text("Your vote").font(.marker(14, bold: true)).foregroundColor(Palette.buttonInk)
                         }
                         .padding(.horizontal, 10).padding(.vertical, 5)
                         .background(SketchyRoundedRectangle(cornerRadius: 9, seed: 71).fill(Palette.mustard))
