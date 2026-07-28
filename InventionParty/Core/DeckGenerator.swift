@@ -13,7 +13,7 @@ enum DeckGenerator {
     static let cardCount = 30
     private static let model = "gpt-5.5"
     private static let imageModel = "gpt-image-1"
-    private static let bundledBackendURLString = ""
+    private static let bundledBackendURLString = "https://idea-party-game-u81z.vercel.app/api/generate-deck"
     private static let backendURLInfoKey = "AI_DECK_BACKEND_URL"
 
     /// Main entry point used by AIDeckView.
